@@ -1,0 +1,2 @@
+# auto-releaser-example
+Example
