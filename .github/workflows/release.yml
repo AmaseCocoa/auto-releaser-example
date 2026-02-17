@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: Auto Releaser
-        uses: AmaseCocoa/auto-releaser@v1
+        uses: AmaseCocoa/auto-releaser@v1.0.0
         with:
           mode: ${{ github.event_name == 'push' && 'pr' || 'release' }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
